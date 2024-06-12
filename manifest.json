@@ -1,0 +1,14 @@
+{
+  "name": "Show&Hide Teachable navigation",
+  "version": "1.0.0",
+  "description": "make you focus on learning easier",
+  "manifest_version": 3,
+  "author": "Sprwh",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "action": {
+    "default_title": "click to toggle show and hide navigation"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
