@@ -25,7 +25,6 @@ async function turnOnAndOff() {
     courseSidebar.style.display = "none";
     main.style.maxWidth = "100%";
   }
-  console.log(storageCache);
   chrome.storage.sync.set(storageCache);
 }
 
